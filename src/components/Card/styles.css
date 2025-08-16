@@ -1,0 +1,26 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 540px;
+  height: fit-content;
+  border: 2px solid black;
+  padding: 40px;
+  margin: 30px;
+  border-radius: 8px;
+  background-color: aliceblue;
+  
+}
+.card__name {
+  font-size: 35px;
+  color: purple;
+  font-weight: bold;
+}
+.card__avatar {
+  width: 150px;
+  height: 150px;
+}
+.card__info {
+  font-size: 20px;
+  color: black;
+}
