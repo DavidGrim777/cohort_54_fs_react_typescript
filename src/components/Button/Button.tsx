@@ -10,9 +10,14 @@ function Button({
 }: ButtonProps) {
   return (
     <button className="button_component" onClick={onClick} type={type}>
-      {/* {children ? "" : buttonName} */}
+      {/* {name}                   //Показаны оба send + icon */}
+      {name}
+      {/* {children ? "" : name}   //Показан icon */}
+
       {/* Улосвный рендеринг */}
-      {!children && name}
+
+      {/* {children && name}          //если children true = send + icon / если children false = icon */}
+      {/* {!children && name} */}
       {children}
     </button>
   );
