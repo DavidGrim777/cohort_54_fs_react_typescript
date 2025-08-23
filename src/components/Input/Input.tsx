@@ -10,6 +10,8 @@ function Input({
   label,
   disabled = false,
   error = undefined,
+  value,
+  onChange
 }: InputProps) {
   return (
     <InputWrapper>
@@ -21,6 +23,8 @@ function Input({
         name={name}
         type={type}
         placeholder={placeholder}
+        value={value}
+        onChange={onChange}
       />
       {!!error && <ErrorText>{error}</ErrorText>}
     </InputWrapper>

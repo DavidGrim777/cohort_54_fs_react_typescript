@@ -19,8 +19,7 @@ function Homework_08() {
           id="simple_input"
           name="simple"
           placeholder="Simple input element"
-          label="Simple Input"
-        />
+          label="Simple Input" value={""}        />
       </ElementControl>
       <ElementControl>
         <Input
@@ -28,8 +27,7 @@ function Homework_08() {
           name="error"
           placeholder="Error input element"
           label="Error Input"
-          error="Some Error"
-        />
+          error="Some Error" value={""}        />
       </ElementControl>
       <ElementControl>
         <Input
@@ -37,8 +35,7 @@ function Homework_08() {
           name="disabled"
           placeholder="Disabled input element"
           label="Disabled Input"
-          disabled
-        />
+          disabled value={""}        />
       </ElementControl>
     </PageWrapper>
   );
