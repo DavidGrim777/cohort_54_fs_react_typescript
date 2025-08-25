@@ -52,7 +52,8 @@ export const Button = styled.div`
   font-family: "Lato", sans-serif;
 
 
-  /* & const Button :hover
+  &:hover{
    background-color: rgb(86, 86, 236);
-  box-shadow: 0px 0px 8px gray; */
+  box-shadow: 0px 0px 8px gray;
+  }
 `;
