@@ -1,4 +1,4 @@
-// import GlobalStyles from "components/Styles/GlobalStyles";
+import GlobalStyles from "components/Styles/GlobalStyles";
 
 // //Lessons
 // import Lesson_06 from "./lessons/Lesson_06/Lesson_06";

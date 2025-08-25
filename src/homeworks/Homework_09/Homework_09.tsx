@@ -10,9 +10,7 @@ function Homework_09() {
     const [error, setError] = useState<string | undefined>(undefined);
 
   const getJoke = async () => {
-    const response = await fetch(JOKE_URL, {
-      method: "GET",
-    });
+    const response = await fetch(JOKE_URL);
 
     const result = await response.json();
     console.log(result);
