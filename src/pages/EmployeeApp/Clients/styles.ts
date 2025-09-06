@@ -1,5 +1,4 @@
 import styled from "@emotion/styled";
-import { Link } from "react-router-dom";
 
 export const PageWrapper = styled.div`
   display: flex;
@@ -15,13 +14,6 @@ export const ButtonControl = styled.div`
   gap: 10px;
    padding: 20px;
   width: 300px;
-`;
-
-export const ClientLink = styled(Link)`
-  color: blue;
-  font-size: 18px;
-  text-decoration: underline;
-  cursor: pointer;
 `;
 
 export const Title = styled.div`
