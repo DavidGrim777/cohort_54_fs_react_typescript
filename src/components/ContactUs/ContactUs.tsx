@@ -12,8 +12,8 @@ function ContactUs() {
   const validationSchema = Yup.object().shape({
     [CONTACT_US_VALUE.FULL_NAME]: Yup.string()
       .required("Full Name field is required")
-      .min(3, "Email field should contain minimum 3 characters")
-      .max(50, "Email field should contain maximum 50 characters"),
+      .min(3, "Full Name field should contain minimum 3 characters")
+      .max(50, "Full Name field should contain maximum 50 characters"),
     [CONTACT_US_VALUE.PHONE]: Yup.string()
       .required("Phone field is required")
       .min(4, "Phone field should contain minimum 4 characters")
