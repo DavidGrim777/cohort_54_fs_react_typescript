@@ -22,6 +22,7 @@ import Layout from "components/Layout/Layout";
 // import Lesson_10 from "lessons/Lesson_10/Lesson_10";
 // import Lesson_11 from "lessons/Lesson_11/Lesson_11";
 // import Lesson_12 from "lessons/Lesson_12/Lesson_12";
+import Lesson_13 from "lessons/Lesson_13/Lesson_13/Lesson_13";
 
 // Homeworks
 // import Homework_06 from "homeworks/Homework_06/Homework_06";
@@ -37,19 +38,20 @@ function App() {
   return (
     <BrowserRouter>
       <GlobalStyles />
-      <Layout>
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/contactUs" element={<ContactUsForm />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/login" element={<LogIn />} />
-          <Route path="/clients" element={<Clients />} />
-          <Route path="/clients/facebook" element={<Facebook />} />
-          <Route path="/clients/instagram" element={<Instagram />} />
-          <Route path="/clients/linkedIn" element={<LinkedIn />} />
-          <Route path="*" element="Page Not Found" />
-        </Routes>
-      </Layout>
+      {/*  <Layout>
+    //     <Routes>
+    //       <Route path="/" element={<Home />} />
+    //       <Route path="/contactUs" element={<ContactUsForm />} />
+    //       <Route path="/about" element={<About />} />
+    //       <Route path="/login" element={<LogIn />} />
+    //       <Route path="/clients" element={<Clients />} />
+    //       <Route path="/clients/facebook" element={<Facebook />} />
+    //       <Route path="/clients/instagram" element={<Instagram />} />
+    //       <Route path="/clients/linkedIn" element={<LinkedIn />} />
+    //       <Route path="*" element="Page Not Found" />
+    //     </Routes>
+    //   </Layout> */}
+
 
       {/* Lessons */}
       {/* <Lesson_06 /> */}
@@ -59,6 +61,8 @@ function App() {
       {/* <Lesson_10 /> */}
       {/* <Lesson_11 /> */}
       {/* <Lesson_12 /> */}
+      <Lesson_13 />
+
 
       {/* Homeworks */}
       {/* <Homework_06 /> */}
@@ -67,6 +71,7 @@ function App() {
       {/* <Homework_09 /> */}
       {/* <Homework_10 /> */}
       {/* <Homework_11 /> */}
+
     </BrowserRouter>
   );
 }

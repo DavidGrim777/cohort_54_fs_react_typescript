@@ -4,10 +4,9 @@ import { useNavigate } from "react-router-dom";
 import { PageWrapper, ButtonControl } from "./styles";
 
 function Instagram() {
+  const navigate = useNavigate();
 
-    const navigate = useNavigate();
-
-    const goToHomePage = () => {
+  const goToHomePage = () => {
     navigate("/");
   };
 
@@ -16,7 +15,7 @@ function Instagram() {
   };
 
   return (
-     <PageWrapper>
+    <PageWrapper>
       Information about company
       <ButtonControl>
         <Button onClick={goBack} name="Go back" />

@@ -3,11 +3,10 @@ import { useNavigate } from "react-router-dom";
 
 import { PageWrapper, ButtonControl } from "./styles";
 
-
 function Facebook() {
   const navigate = useNavigate();
 
-    const goToHomePage = () => {
+  const goToHomePage = () => {
     navigate("/");
   };
 
@@ -16,7 +15,7 @@ function Facebook() {
   };
 
   return (
-   <PageWrapper>
+    <PageWrapper>
       Information about company
       <ButtonControl>
         <Button onClick={goBack} name="Go back" />

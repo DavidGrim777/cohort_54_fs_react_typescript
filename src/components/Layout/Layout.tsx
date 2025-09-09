@@ -68,7 +68,7 @@ function Layout({ children }: LayoutProps) {
           >
             Login
           </HeaderLink>
-           <HeaderLink
+          <HeaderLink
             style={({ isActive }) => ({
               fonntWeight: isActive ? "hold" : "normal",
               textDecoration: isActive ? "underline" : "none",
