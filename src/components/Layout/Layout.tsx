@@ -68,6 +68,15 @@ function Layout({ children }: LayoutProps) {
           >
             Login
           </HeaderLink>
+          <HeaderLink
+            style={({ isActive }) => ({
+              fonntWeight: isActive ? "hold" : "normal",
+              textDecoration: isActive ? "underline" : "none",
+            })}
+            to="/clients"
+          >
+            Clients
+          </HeaderLink>
         </NavigationContainer>
       </Header>
       <Main>{children}</Main>
@@ -83,6 +92,7 @@ function Layout({ children }: LayoutProps) {
           <FooterLink to="/contactUs">Contact Us</FooterLink>
           <FooterLink to="/about">About</FooterLink>
           <FooterLink to="/login">Login</FooterLink>
+          <FooterLink to="/clients">Clients</FooterLink>
         </FooterNavigation>
       </Footer>
     </LayoutWrapper>
